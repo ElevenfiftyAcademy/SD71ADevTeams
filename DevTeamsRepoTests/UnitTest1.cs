@@ -89,5 +89,19 @@ namespace DevTeamsRepoTests
             //Assert
             Assert.AreEqual(devToAdd, devByID);
         }
+        [TestMethod]
+        public void TestForGetDevByID2()
+        {
+            DeveloperRepo devRepo = new DeveloperRepo();
+            Developer devToAdd = new Developer("TestDev", true);
+            devRepo.AddDeveloperToDirectory(devToAdd);
+
+            //Act
+            Developer devByID = devRepo.GetDeveloperById(devToAdd.DeveloperID);
+
+            bool devIDsAreEqual = devToAdd.Name == devByID.Name;
+
+            Assert.IsTrue(devIDsAreEqual);
+        }
     }
 }
