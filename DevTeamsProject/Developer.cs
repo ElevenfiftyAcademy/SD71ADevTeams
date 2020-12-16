@@ -12,10 +12,15 @@ namespace DevTeamsProject
         public string Name { get; set; }
         public bool HasPluralsight { get; set; }
 
+        public Developer()
+        {
+
+        }
         public Developer(string name, bool hasPluralsight)
         {
             Name = name;
             HasPluralsight = hasPluralsight;
         }
+
     }
 }

@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevTeamsProject", "DevTeams
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevTeamsConsole", "DevTeamsConsole\DevTeamsConsole.csproj", "{EC4B2A68-BC09-4486-8F04-B758BE50F33A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevTeamsRepoTests", "DevTeamsRepoTests\DevTeamsRepoTests.csproj", "{8B06741F-EC2D-4242-99E9-28C261BF2863}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{EC4B2A68-BC09-4486-8F04-B758BE50F33A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC4B2A68-BC09-4486-8F04-B758BE50F33A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC4B2A68-BC09-4486-8F04-B758BE50F33A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B06741F-EC2D-4242-99E9-28C261BF2863}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B06741F-EC2D-4242-99E9-28C261BF2863}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B06741F-EC2D-4242-99E9-28C261BF2863}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B06741F-EC2D-4242-99E9-28C261BF2863}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
